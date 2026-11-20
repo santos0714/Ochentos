@@ -1,0 +1,20 @@
+# Cabeceras para Cloudflare Pages / Netlify
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  X-Frame-Options: SAMEORIGIN
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# El menú y las fotos se reemplazan sin cambiar de nombre: que siempre se revisen.
+/menu.xlsx
+  Cache-Control: no-cache
+
+/fotos/*
+  Cache-Control: no-cache
+
+/admin/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store

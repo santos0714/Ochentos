@@ -1,0 +1,1770 @@
+{
+ "categories": [
+  {
+   "id": "pizzas",
+   "nombre": "Pizzas",
+   "descripcion": "Chica 12\" · 8 rebanadas  |  Mediana 14\" · 12 rebanadas  |  Grande 16\" · 12 rebanadas  |  Familiar 18\" · 16 rebanadas",
+   "nota": "",
+   "orden": 10,
+   "publicado": true
+  },
+  {
+   "id": "algo-diferente",
+   "nombre": "Algo diferente…",
+   "descripcion": "",
+   "nota": "",
+   "orden": 20,
+   "publicado": true
+  },
+  {
+   "id": "entradas",
+   "nombre": "Entradas",
+   "descripcion": "",
+   "nota": "",
+   "orden": 30,
+   "publicado": true
+  },
+  {
+   "id": "del-bar",
+   "nombre": "Del Bar",
+   "descripcion": "",
+   "nota": "¡Agrega salsa extra! Salsas hechas en casa, +$20 mxn: Chipotle Ranch, Blue cheese, Ranch, BBQ, Honey chipotle, Buffalo, Pomodoro, Pesto de albahaca y Alfredo.",
+   "orden": 40,
+   "publicado": true
+  },
+  {
+   "id": "ensaladas",
+   "nombre": "Ensaladas",
+   "descripcion": "",
+   "nota": "",
+   "orden": 50,
+   "publicado": true
+  },
+  {
+   "id": "pastas",
+   "nombre": "Pastas",
+   "descripcion": "",
+   "nota": "¡Agrega pan a tu pasta! (3) piezas de pan ciabatta + side de mantequilla, $45 mxn.",
+   "orden": 60,
+   "publicado": true
+  },
+  {
+   "id": "postres",
+   "nombre": "Postres de la casa",
+   "descripcion": "Por Angelinos · Desde 1999",
+   "nota": "¡Pregunta por nuestros postres de temporada y especiales de la semana!",
+   "orden": 70,
+   "publicado": true
+  },
+  {
+   "id": "extras",
+   "nombre": "Extras",
+   "descripcion": "",
+   "nota": "",
+   "orden": 80,
+   "publicado": true
+  },
+  {
+   "id": "cerveza-artesanal",
+   "nombre": "Cerveza artesanal",
+   "descripcion": "El Chivo Gruñón · Cerveza oficial de la casa",
+   "nota": "¡Pregunta por nuestras cervezas de temporada! Visita nuestro spot de merch y encuentra tus accesorios Chivo-Ochentos favoritos.",
+   "orden": 90,
+   "publicado": true
+  },
+  {
+   "id": "bebidas-de-la-barra",
+   "nombre": "Bebidas de la barra",
+   "descripcion": "",
+   "nota": "",
+   "orden": 100,
+   "publicado": true
+  },
+  {
+   "id": "vinos",
+   "nombre": "Carta de vinos",
+   "descripcion": "",
+   "nota": "",
+   "orden": 110,
+   "publicado": true
+  },
+  {
+   "id": "bebidas",
+   "nombre": "Bebidas",
+   "descripcion": "",
+   "nota": "",
+   "orden": 120,
+   "publicado": true
+  }
+ ],
+ "products": [
+  {
+   "id": "pizza-triple-ochentos",
+   "categoria": "pizzas",
+   "nombre": "Triple Ochentos",
+   "descripcion": "Pepperoni, jamón artesanal, salami y ajo.",
+   "variantes": [
+    [
+     "Chica",
+     360
+    ],
+    [
+     "Mediana",
+     440
+    ],
+    [
+     "Grande",
+     550
+    ],
+    [
+     "Familiar",
+     650
+    ]
+   ],
+   "orden": 10
+  },
+  {
+   "id": "pizza-especial",
+   "categoria": "pizzas",
+   "nombre": "Especial",
+   "descripcion": "Pepperoni, jamón artesanal, cebolla morada, aceituna negra, champiñones y chile morrón verde.",
+   "variantes": [
+    [
+     "Chica",
+     305
+    ],
+    [
+     "Mediana",
+     380
+    ],
+    [
+     "Grande",
+     495
+    ],
+    [
+     "Familiar",
+     595
+    ]
+   ],
+   "orden": 20
+  },
+  {
+   "id": "pizza-vegetariana",
+   "categoria": "pizzas",
+   "nombre": "Vegetariana",
+   "descripcion": "Tomate, cebolla morada, aceituna negra, chile morrón verde, champiñones, queso fetta y ajo.",
+   "variantes": [
+    [
+     "Chica",
+     275
+    ],
+    [
+     "Mediana",
+     345
+    ],
+    [
+     "Grande",
+     460
+    ],
+    [
+     "Familiar",
+     555
+    ]
+   ],
+   "orden": 30
+  },
+  {
+   "id": "pizza-triple-italiano",
+   "categoria": "pizzas",
+   "nombre": "Triple Italiano",
+   "descripcion": "Pepperoni, ricotta y pesto de albahaca.",
+   "variantes": [
+    [
+     "Chica",
+     325
+    ],
+    [
+     "Mediana",
+     400
+    ],
+    [
+     "Grande",
+     515
+    ],
+    [
+     "Familiar",
+     615
+    ]
+   ],
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 40
+  },
+  {
+   "id": "pizza-salchicha",
+   "categoria": "pizzas",
+   "nombre": "Salchicha",
+   "descripcion": "Cebolla morada, ajo, tomate cherry, chile morrón verde, salchicha italiana de la casa y albahaca fresca.",
+   "variantes": [
+    [
+     "Chica",
+     295
+    ],
+    [
+     "Mediana",
+     365
+    ],
+    [
+     "Grande",
+     490
+    ],
+    [
+     "Familiar",
+     585
+    ]
+   ],
+   "orden": 50
+  },
+  {
+   "id": "pizza-tres-quesos",
+   "categoria": "pizzas",
+   "nombre": "Tres Quesos",
+   "descripcion": "Carne molida, tocino, queso cheddar, provolone, mozzarella y chile morrón caramelizado.",
+   "variantes": [
+    [
+     "Chica",
+     370
+    ],
+    [
+     "Mediana",
+     450
+    ],
+    [
+     "Grande",
+     580
+    ],
+    [
+     "Familiar",
+     690
+    ]
+   ],
+   "orden": 60
+  },
+  {
+   "id": "pizza-colombiana",
+   "categoria": "pizzas",
+   "nombre": "Colombiana",
+   "descripcion": "Tomate, pollo recién horneado, tocino, ajo y albahaca fresca.",
+   "variantes": [
+    [
+     "Chica",
+     400
+    ],
+    [
+     "Mediana",
+     480
+    ],
+    [
+     "Grande",
+     590
+    ],
+    [
+     "Familiar",
+     690
+    ]
+   ],
+   "orden": 70
+  },
+  {
+   "id": "pizza-hawaiana",
+   "categoria": "pizzas",
+   "nombre": "Hawaiana",
+   "descripcion": "Jamón artesanal y piña con una pizca de azúcar y canela.",
+   "variantes": [
+    [
+     "Chica",
+     295
+    ],
+    [
+     "Mediana",
+     365
+    ],
+    [
+     "Grande",
+     490
+    ],
+    [
+     "Familiar",
+     585
+    ]
+   ],
+   "orden": 80
+  },
+  {
+   "id": "pizza-margarita",
+   "categoria": "pizzas",
+   "nombre": "Margarita",
+   "descripcion": "Tomate, ajo, aceite de oliva y albahaca fresca.",
+   "variantes": [
+    [
+     "Chica",
+     255
+    ],
+    [
+     "Mediana",
+     310
+    ],
+    [
+     "Grande",
+     400
+    ],
+    [
+     "Familiar",
+     470
+    ]
+   ],
+   "orden": 90
+  },
+  {
+   "id": "pizza-mexicana",
+   "categoria": "pizzas",
+   "nombre": "Mexicana",
+   "descripcion": "Cebolla blanca, frijoles, cilantro fresco, chorizo de puerco de la casa.",
+   "variantes": [
+    [
+     "Chica",
+     250
+    ],
+    [
+     "Mediana",
+     305
+    ],
+    [
+     "Grande",
+     395
+    ],
+    [
+     "Familiar",
+     485
+    ]
+   ],
+   "orden": 100
+  },
+  {
+   "id": "pizza-pepperoni",
+   "categoria": "pizzas",
+   "nombre": "Pepperoni",
+   "descripcion": "Tradicional pizza de pepperoni.",
+   "variantes": [
+    [
+     "Chica",
+     235
+    ],
+    [
+     "Mediana",
+     290
+    ],
+    [
+     "Grande",
+     380
+    ],
+    [
+     "Familiar",
+     460
+    ]
+   ],
+   "orden": 110
+  },
+  {
+   "id": "pizza-patriota",
+   "categoria": "algo-diferente",
+   "nombre": "Patriota",
+   "descripcion": "Carne adobada de la casa, base salsa pomodoro morita, piña, cebollín y cilantro fresco.",
+   "variantes": [
+    [
+     "Chica",
+     295
+    ],
+    [
+     "Mediana",
+     365
+    ],
+    [
+     "Grande",
+     490
+    ],
+    [
+     "Familiar",
+     585
+    ]
+   ],
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 10
+  },
+  {
+   "id": "pizza-camaron",
+   "categoria": "algo-diferente",
+   "nombre": "Camarón",
+   "descripcion": "Cebollín, chile morrón caramelizado, camarón fresco, ajo y cilantro fresco sobre salsa de chipotle con miel.",
+   "variantes": [
+    [
+     "Chica",
+     380
+    ],
+    [
+     "Mediana",
+     480
+    ],
+    [
+     "Grande",
+     590
+    ],
+    [
+     "Familiar",
+     710
+    ]
+   ],
+   "orden": 20
+  },
+  {
+   "id": "pizza-tre-formaggi",
+   "categoria": "algo-diferente",
+   "nombre": "Tre Formaggi",
+   "descripcion": "Queso de cabra, blue cheese, mozzarella y champiñones salteados, sobre salsa alfredo.",
+   "variantes": [
+    [
+     "Chica",
+     295
+    ],
+    [
+     "Mediana",
+     365
+    ],
+    [
+     "Grande",
+     490
+    ],
+    [
+     "Familiar",
+     585
+    ]
+   ],
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 30
+  },
+  {
+   "id": "pizza-bbq",
+   "categoria": "algo-diferente",
+   "nombre": "BBQ",
+   "descripcion": "Cebollín, chile morrón rojo, pollo recién horneado, piña y queso gouda sobre salsa BBQ.",
+   "variantes": [
+    [
+     "Chica",
+     400
+    ],
+    [
+     "Mediana",
+     480
+    ],
+    [
+     "Grande",
+     590
+    ],
+    [
+     "Familiar",
+     690
+    ]
+   ],
+   "orden": 40
+  },
+  {
+   "id": "entrada-baja-californiana",
+   "categoria": "entradas",
+   "nombre": "Baja Californiana",
+   "descripcion": "Variedad de quesos, huevo de codorniz en escabeche, paté de marlin ahumado, dátiles, fresas, aceitunas, aceite de oliva y miel de abeja, todo de la región.",
+   "variantes": [
+    [
+     "Chica",
+     365
+    ],
+    [
+     "Familiar",
+     575
+    ]
+   ],
+   "orden": 10
+  },
+  {
+   "id": "entrada-italiana",
+   "categoria": "entradas",
+   "nombre": "Italiana",
+   "descripcion": "Prosciutto italiano, chorizo cantimpalo, giardiniera, cuadritos de parmesano, gorgonzola cremoso, queso fontina, uva, melón, tomate deshidratado, pesto y pan de la casa.",
+   "variantes": [
+    [
+     "Chica",
+     365
+    ],
+    [
+     "Familiar",
+     575
+    ]
+   ],
+   "orden": 20
+  },
+  {
+   "id": "entrada-caprese",
+   "categoria": "entradas",
+   "nombre": "Caprese",
+   "descripcion": "Tomate, queso mozzarella y albahaca frescos sobre pan recién horneado. Bañado en pesto de la casa y perejil.",
+   "precio": 260,
+   "orden": 30
+  },
+  {
+   "id": "entrada-champinones-al-ajillo",
+   "categoria": "entradas",
+   "nombre": "Champiñones al ajillo",
+   "descripcion": "¡Un toque picoso! Champiñones, cebolla morada y ajo sofrito en aceite de oliva y mantequilla preparada. Servido con pan de la casa.",
+   "precio": 275,
+   "etiquetas": [
+    "picante"
+   ],
+   "orden": 40
+  },
+  {
+   "id": "bar-alitas",
+   "categoria": "del-bar",
+   "nombre": "Alitas BBQ // Buffalo",
+   "descripcion": "Alitas en salsa BBQ, chipotle o salsa buffalo de la casa, acompañadas de zanahoria y jícama. Servidas con aderezo ranch o blue cheese de la casa.",
+   "variantes": [
+    [
+     "Orden",
+     375
+    ],
+    [
+     "1/2 orden",
+     220
+    ]
+   ],
+   "orden": 10
+  },
+  {
+   "id": "bar-alitas-vegetarianas",
+   "categoria": "del-bar",
+   "nombre": "Alitas vegetarianas",
+   "descripcion": "Coliflor en tempura de la casa, acompañadas de zanahoria y jícama fresca con ranch de la casa.",
+   "variantes": [
+    [
+     "Orden",
+     240
+    ]
+   ],
+   "orden": 20
+  },
+  {
+   "id": "bar-mozzarella-sticks",
+   "categoria": "del-bar",
+   "nombre": "Mozzarella sticks",
+   "descripcion": "Tiras de queso mozzarella empanizadas y fritas servidas con salsa pomodoro de la casa.",
+   "variantes": [
+    [
+     "5 piezas",
+     210
+    ],
+    [
+     "9 piezas",
+     315
+    ]
+   ],
+   "orden": 30
+  },
+  {
+   "id": "bar-jalapeno-poppers",
+   "categoria": "del-bar",
+   "nombre": "Jalapeño poppers",
+   "descripcion": "Jalapeños empanizados y fritos, rellenos de queso crema. Acompañados con aderezo ranch o blue cheese de la casa.",
+   "variantes": [
+    [
+     "3 piezas",
+     190
+    ],
+    [
+     "5 piezas",
+     240
+    ]
+   ],
+   "orden": 40
+  },
+  {
+   "id": "bar-zucchini-sticks",
+   "categoria": "del-bar",
+   "nombre": "Zucchini sticks",
+   "descripcion": "Tiras de calabacín empanizadas y fritas servidas con ranch de la casa.",
+   "variantes": [
+    [
+     "Orden",
+     275
+    ]
+   ],
+   "orden": 50
+  },
+  {
+   "id": "bar-papotas",
+   "categoria": "del-bar",
+   "nombre": "Papotas",
+   "descripcion": "Cortes de papa en gajo, queso para nacho, polvo de tocino, cilantro y un toque de ranch de la casa.",
+   "variantes": [
+    [
+     "Orden",
+     190
+    ]
+   ],
+   "orden": 60
+  },
+  {
+   "id": "ensalada-ochentos",
+   "categoria": "ensaladas",
+   "nombre": "Ochentos (\"de la casa\")",
+   "descripcion": "Combinación de lechuga fresca local, tomate cherry, cebolla morada, aceituna kalamata, champiñones y chile morrón con queso fetta. Acompañada de vinagreta de la casa.",
+   "variantes": [
+    [
+     "Individual",
+     145
+    ],
+    [
+     "Para dos",
+     220
+    ],
+    [
+     "Familiar",
+     335
+    ]
+   ],
+   "orden": 10
+  },
+  {
+   "id": "ensalada-fattoush",
+   "categoria": "ensaladas",
+   "nombre": "Fattoush",
+   "descripcion": "Combinación de lechuga fresca local, combinación de pimientos, pepino, tomate, cebollín, perejil, aceituna kalamata y menta, servida con pan pita crujiente y aderezo de la casa.",
+   "variantes": [
+    [
+     "Individual",
+     145
+    ],
+    [
+     "Para dos",
+     250
+    ],
+    [
+     "Familiar",
+     360
+    ]
+   ],
+   "orden": 20
+  },
+  {
+   "id": "ensalada-espinacas",
+   "categoria": "ensaladas",
+   "nombre": "Espinacas",
+   "descripcion": "Espinacas, nuez confitada praliné, pera, queso de cabra, tocino y arándanos. Acompañada de vinagreta con base en miel de vino tinto de la región.",
+   "variantes": [
+    [
+     "Individual",
+     155
+    ],
+    [
+     "Para dos",
+     290
+    ],
+    [
+     "Familiar",
+     410
+    ]
+   ],
+   "orden": 30
+  },
+  {
+   "id": "ensalada-blue-cheese",
+   "categoria": "ensaladas",
+   "nombre": "Ensalada Blue Cheese",
+   "descripcion": "Combinación de lechuga fresca, gajos de tomate, tocino, cebolla morada, blue cheese crumbles, tomate cherry deshidratado y aderezo blue cheese de la casa.",
+   "variantes": [
+    [
+     "Individual",
+     200
+    ]
+   ],
+   "orden": 40
+  },
+  {
+   "id": "ensalada-orden-pollo",
+   "categoria": "ensaladas",
+   "nombre": "Orden de pollo",
+   "descripcion": "",
+   "variantes": [
+    [
+     "Porción",
+     60
+    ]
+   ],
+   "orden": 50
+  },
+  {
+   "id": "ensalada-orden-camaron",
+   "categoria": "ensaladas",
+   "nombre": "Orden de camarón",
+   "descripcion": "",
+   "variantes": [
+    [
+     "Porción",
+     80
+    ]
+   ],
+   "orden": 60
+  },
+  {
+   "id": "pasta-frutti-vino-blanco",
+   "categoria": "pastas",
+   "nombre": "Frutti di Mare · al vino blanco",
+   "descripcion": "Pasta lingüini salteada en mantequilla y vino blanco, ajo, pimiento amarillo con un toque de peperoncini y mariscos frescos de temporada de nuestra Baja.",
+   "precio": 460,
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 10
+  },
+  {
+   "id": "pasta-frutti-pomodoro",
+   "categoria": "pastas",
+   "nombre": "Frutti di Mare · pomodoro",
+   "descripcion": "Pasta lingüini salteada en mantequilla, sal y pimienta con mariscos frescos de nuestra Baja, con salsa pomodoro y un toque de queso parmesano.",
+   "precio": 480,
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 20
+  },
+  {
+   "id": "pasta-espaguetti-albondigas",
+   "categoria": "pastas",
+   "nombre": "Espaguetti con albóndigas ó salchicha italiana",
+   "descripcion": "Espaguetti, salsa pomodoro, albóndigas de res y cerdo con ricotta, parmesano y especias o salchicha italiana tradicional, ambas hechas en casa.",
+   "precio": 260,
+   "orden": 30
+  },
+  {
+   "id": "pasta-pesto",
+   "categoria": "pastas",
+   "nombre": "Pesto Pasta",
+   "descripcion": "Espaguetti con nuestro pesto de albahaca y nuez, parmesano reggianito y un toque de albahaca.",
+   "variantes": [
+    [
+     "Pollo",
+     280
+    ],
+    [
+     "Camarón",
+     340
+    ]
+   ],
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 40
+  },
+  {
+   "id": "pasta-pesto-cremosa",
+   "categoria": "pastas",
+   "nombre": "Pesto Cremosa",
+   "descripcion": "Espaguetti con nuestra mezcla de pesto de albahaca y nuez, salsa Alfredo, crema, vino blanco y un toque de albahaca y parmesano reggianito.",
+   "variantes": [
+    [
+     "Pollo",
+     280
+    ],
+    [
+     "Camarón",
+     340
+    ]
+   ],
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 50
+  },
+  {
+   "id": "pasta-arma-tu-pasta",
+   "categoria": "pastas",
+   "nombre": "Pasta",
+   "descripcion": "¡Elige tu tipo de pasta y salsa!",
+   "opciones": "Pasta: penne, espaguetti, lingüini, fettuccine o macarrón / Salsa: pomodoro, Alfredo o vodka",
+   "precio": 180,
+   "orden": 60
+  },
+  {
+   "id": "pasta-linguini-alfredo",
+   "categoria": "pastas",
+   "nombre": "Lingüini Alfredo",
+   "descripcion": "Pasta lingüini en salsa alfredo de la casa, jamón, champiñones frescos y albahaca como guarnición.",
+   "precio": 230,
+   "orden": 70
+  },
+  {
+   "id": "pasta-lasagna",
+   "categoria": "pastas",
+   "nombre": "Lasagna",
+   "descripcion": "Pasta casera, carne molida, salsa bolognesa, salsa bechamel, queso mozzarella y salsa pomodoro. Con un toque de albahaca.",
+   "precio": 210,
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 80
+  },
+  {
+   "id": "pasta-fettuccine-alfredo",
+   "categoria": "pastas",
+   "nombre": "Fettuccine Alfredo",
+   "descripcion": "Pasta fettuccine en salsa alfredo de la casa, acompañada con pollo o camarón fresco y albahaca.",
+   "variantes": [
+    [
+     "Con pollo",
+     210
+    ],
+    [
+     "Con camarón",
+     260
+    ]
+   ],
+   "orden": 90
+  },
+  {
+   "id": "pasta-carbonara",
+   "categoria": "pastas",
+   "nombre": "Carbonara",
+   "descripcion": "Pasta penne, crema carbonara, pork belly y queso pecorino.",
+   "precio": 260,
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 100
+  },
+  {
+   "id": "pasta-bolognesa",
+   "categoria": "pastas",
+   "nombre": "Pasta Bolognesa",
+   "descripcion": "Spaghetti en salsa de la casa combinado con vegetales, carne molida, tomillo, perejil, albahaca y un toque de vino tinto.",
+   "precio": 210,
+   "orden": 110
+  },
+  {
+   "id": "pasta-espaguetti-con-carne",
+   "categoria": "pastas",
+   "nombre": "Espaguetti con carne",
+   "descripcion": "Pasta spaghetti, carne molida, espinacas y hongo portobello en salsa pomodoro.",
+   "precio": 245,
+   "orden": 120
+  },
+  {
+   "id": "pasta-macarrones-con-queso",
+   "categoria": "pastas",
+   "nombre": "Macarrones con queso",
+   "descripcion": "Un clásico hecho al estilo Ochentos Pizza, ¡elige tu proteína!",
+   "opciones": "Camarón +$30 / Albóndiga +$25 / Pollo +$20 / Tocino +$20",
+   "precio": 180,
+   "orden": 130
+  },
+  {
+   "id": "pasta-para-ninos",
+   "categoria": "pastas",
+   "nombre": "Pasta para niños",
+   "descripcion": "Pasta de coditos, pomodoro, alfredo y pollito.",
+   "precio": 120,
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 140
+  },
+  {
+   "id": "postre-pay",
+   "categoria": "postres",
+   "nombre": "Pay de queso o plátano",
+   "descripcion": "Servido con fruta de estación.",
+   "precio": 110,
+   "orden": 10
+  },
+  {
+   "id": "postre-pastel-chocolate",
+   "categoria": "postres",
+   "nombre": "Pastel de chocolate",
+   "descripcion": "Venta por rebanada.",
+   "precio": 140,
+   "orden": 20
+  },
+  {
+   "id": "postre-tarta-manzana",
+   "categoria": "postres",
+   "nombre": "Tarta de manzana",
+   "descripcion": "",
+   "precio": 110,
+   "orden": 30
+  },
+  {
+   "id": "postre-tiramisu",
+   "categoria": "postres",
+   "nombre": "Tiramisú",
+   "descripcion": "Hecho en casa, a base de licor de café, espresso, cocoa y queso ricotta.",
+   "precio": 200,
+   "orden": 40
+  },
+  {
+   "id": "postre-docena-surtida",
+   "categoria": "postres",
+   "nombre": "Docena surtida",
+   "descripcion": "",
+   "opciones": "Rugelach: rellena de mermelada de frambuesa y chocolate blanco, espolvoreada de azúcar y canela / Ron con nuez: ron y nuez cubierta de azúcar glas / Besitos de cajeta: galleta rellena de cajeta, cubierta de azúcar glas / Barritas de chabacano: barritas de polvorón con mermelada de chabacano y glaseado",
+   "precio": 200,
+   "orden": 50
+  },
+  {
+   "id": "extra-orden-pan",
+   "categoria": "extras",
+   "nombre": "Orden de pan",
+   "descripcion": "(3) piezas de pan de la casa + side de mantequilla.",
+   "precio": 45,
+   "orden": 10
+  },
+  {
+   "id": "extra-orden-pollo",
+   "categoria": "extras",
+   "nombre": "Orden de pollo",
+   "descripcion": "",
+   "precio": 60,
+   "orden": 20
+  },
+  {
+   "id": "extra-orden-camaron",
+   "categoria": "extras",
+   "nombre": "Orden de camarón",
+   "descripcion": "",
+   "precio": 80,
+   "orden": 30
+  },
+  {
+   "id": "extra-salchicha-italiana",
+   "categoria": "extras",
+   "nombre": "Salchicha italiana",
+   "descripcion": "Hecha en casa.",
+   "precio": 90,
+   "orden": 40
+  },
+  {
+   "id": "extra-albondiga",
+   "categoria": "extras",
+   "nombre": "Albóndiga",
+   "descripcion": "Carne de res, puerco y queso ricotta. Hecha en casa.",
+   "precio": 45,
+   "orden": 50
+  },
+  {
+   "id": "extra-salsas",
+   "categoria": "extras",
+   "nombre": "Salsas",
+   "descripcion": "¡Hechas en casa!",
+   "opciones": "Chipotle Ranch / Blue cheese / Ranch / BBQ / Honey chipotle / Buffalo / Pomodoro / Pesto de albahaca / Alfredo",
+   "precio": 20,
+   "orden": 60
+  },
+  {
+   "id": "cerveza-chivito-lai",
+   "categoria": "cerveza-artesanal",
+   "nombre": "Chivito Lai",
+   "detalle": "American Light Ale",
+   "variantes": [
+    [
+     "Pinta",
+     90
+    ],
+    [
+     "Jarra",
+     360
+    ]
+   ],
+   "etiquetas": [
+    "medalla"
+   ],
+   "orden": 10
+  },
+  {
+   "id": "cerveza-peanut-butter",
+   "categoria": "cerveza-artesanal",
+   "nombre": "Peanut Butter",
+   "detalle": "Porter",
+   "variantes": [
+    [
+     "Pinta",
+     100
+    ],
+    [
+     "Jarra",
+     360
+    ]
+   ],
+   "orden": 20
+  },
+  {
+   "id": "cerveza-sin-traduccion",
+   "categoria": "cerveza-artesanal",
+   "nombre": "Sin Traducción",
+   "detalle": "Belgian Stout",
+   "variantes": [
+    [
+     "Pinta",
+     90
+    ],
+    [
+     "Jarra",
+     360
+    ]
+   ],
+   "orden": 30
+  },
+  {
+   "id": "cerveza-san-antonio",
+   "categoria": "cerveza-artesanal",
+   "nombre": "San Antonio",
+   "detalle": "Session IPA",
+   "variantes": [
+    [
+     "Pinta",
+     90
+    ],
+    [
+     "Jarra",
+     360
+    ]
+   ],
+   "orden": 40
+  },
+  {
+   "id": "cerveza-elma",
+   "categoria": "cerveza-artesanal",
+   "nombre": "Elma",
+   "detalle": "Honey Cream Ale",
+   "variantes": [
+    [
+     "Pinta",
+     90
+    ],
+    [
+     "Jarra",
+     360
+    ]
+   ],
+   "orden": 50
+  },
+  {
+   "id": "cerveza-kolsch-45",
+   "categoria": "cerveza-artesanal",
+   "nombre": "Kölsch 45",
+   "detalle": "Kölsch",
+   "variantes": [
+    [
+     "Pinta",
+     90
+    ],
+    [
+     "Jarra",
+     360
+    ]
+   ],
+   "orden": 60
+  },
+  {
+   "id": "cerveza-ochentos",
+   "categoria": "cerveza-artesanal",
+   "nombre": "Ochentos",
+   "detalle": "Irish Red",
+   "variantes": [
+    [
+     "Pinta",
+     90
+    ],
+    [
+     "Jarra",
+     360
+    ]
+   ],
+   "etiquetas": [
+    "medalla"
+   ],
+   "orden": 70
+  },
+  {
+   "id": "cerveza-michelada",
+   "categoria": "cerveza-artesanal",
+   "nombre": "Michelada",
+   "descripcion": "Cerveza de la casa y preparado de clamato de la casa.",
+   "precio": 120,
+   "orden": 80
+  },
+  {
+   "id": "coctel-love-potion",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Love Potion",
+   "descripcion": "Gin, licor de frambuesa y limón amarillo.",
+   "variantes": [
+    [
+     "De la casa",
+     190
+    ],
+    [
+     "Esenxia",
+     240
+    ]
+   ],
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 10
+  },
+  {
+   "id": "coctel-peliroja",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Peliroja",
+   "descripcion": "Ginebra y pecosita.",
+   "variantes": [
+    [
+     "De la casa",
+     190
+    ],
+    [
+     "Esenxia",
+     240
+    ]
+   ],
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 20
+  },
+  {
+   "id": "coctel-patriota",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Patriota",
+   "descripcion": "Mezcal, agua mineral, pepino, hierbabuena, jarabe madrileña y un twist de limón.",
+   "variantes": [
+    [
+     "De la casa",
+     190
+    ],
+    [
+     "Mezcal premium",
+     240
+    ]
+   ],
+   "orden": 30
+  },
+  {
+   "id": "coctel-mezcalita-nochebuena",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Mezcalita Nochebuena",
+   "descripcion": "Mezcal, jarabe de canela con romero y jamaica.",
+   "variantes": [
+    [
+     "De la casa",
+     190
+    ],
+    [
+     "400 Conejos",
+     240
+    ]
+   ],
+   "orden": 40
+  },
+  {
+   "id": "coctel-kombucha-rita",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Kombucha-rita",
+   "descripcion": "Tequila, kombucha “Euodia” y miel, con escarchado y romero como guarnición.",
+   "precio": 240,
+   "orden": 50
+  },
+  {
+   "id": "coctel-sunshine",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Sunshine",
+   "descripcion": "Preparado con tequila, jugo de naranja y torani de fresa. Rodaja de naranja fresca y cherry como guarnición.",
+   "precio": 200,
+   "orden": 60
+  },
+  {
+   "id": "coctel-capirucho",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Capirucho",
+   "descripcion": "Clásico ron Captain Morgan y Coca Cola.",
+   "precio": 170,
+   "orden": 70
+  },
+  {
+   "id": "coctel-tamarindo",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Tamarindo",
+   "descripcion": "Preparado con ron blanco, vodka, jugo de limón, jarabe, soda “Fresca” y Coca Cola. Tamarindo como guarnición.",
+   "precio": 170,
+   "orden": 80
+  },
+  {
+   "id": "coctel-sangria",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Sangría preparada",
+   "descripcion": "Preparada con limón natural, agua mineral, vino tinto de la región y jarabe natural.",
+   "variantes": [
+    [
+     "Individual",
+     165
+    ],
+    [
+     "Jarra",
+     590
+    ]
+   ],
+   "orden": 90
+  },
+  {
+   "id": "coctel-clericot",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Clericot",
+   "descripcion": "Preparado con vino rosado, agua mineral, limón y jarabe. Manzana, durazno y uva picados.",
+   "variantes": [
+    [
+     "Individual",
+     165
+    ],
+    [
+     "Jarra",
+     590
+    ]
+   ],
+   "orden": 100
+  },
+  {
+   "id": "coctel-gin-tonic",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Gin Tonic",
+   "descripcion": "Ginebra, agua tónica, twist de limón y romero.",
+   "variantes": [
+    [
+     "De la casa",
+     170
+    ],
+    [
+     "Esenxia",
+     220
+    ]
+   ],
+   "orden": 110
+  },
+  {
+   "id": "coctel-gin-sour",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Gin Sour",
+   "descripcion": "",
+   "variantes": [
+    [
+     "De la casa",
+     190
+    ],
+    [
+     "Esenxia",
+     240
+    ]
+   ],
+   "orden": 120
+  },
+  {
+   "id": "coctel-margarita",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Margarita",
+   "descripcion": "Natural ó jalapeño.",
+   "precio": 190,
+   "orden": 130
+  },
+  {
+   "id": "coctel-margarita-cadillac",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Margarita Cadillac",
+   "descripcion": "",
+   "precio": 250,
+   "orden": 140
+  },
+  {
+   "id": "coctel-negroni",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Negroni",
+   "descripcion": "Ginebra, Campari y vermouth dulce.",
+   "precio": 220,
+   "orden": 150
+  },
+  {
+   "id": "coctel-manhattan",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Manhattan",
+   "descripcion": "Whiskey, vermouth dulce y Angostura.",
+   "precio": 240,
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 160
+  },
+  {
+   "id": "coctel-old-fashion",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Old Fashion",
+   "descripcion": "Whiskey.",
+   "precio": 240,
+   "orden": 170
+  },
+  {
+   "id": "coctel-martini",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Martini",
+   "descripcion": "",
+   "precio": 190,
+   "orden": 180
+  },
+  {
+   "id": "coctel-insomniac",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Insomniac",
+   "descripcion": "Frangelico, Kahlúa, café y leche.",
+   "precio": 200,
+   "orden": 190
+  },
+  {
+   "id": "coctel-carajillo",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Carajillo",
+   "descripcion": "Licor 43, café, canela y romero.",
+   "precio": 240,
+   "etiquetas": [
+    "nuevo"
+   ],
+   "orden": 200
+  },
+  {
+   "id": "coctel-mohito",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Mohito",
+   "descripcion": "Preparado con ron blanco, azúcar, menta, jugo de limón y soda “Fresca”.",
+   "precio": 170,
+   "orden": 210
+  },
+  {
+   "id": "coctel-shots",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Shots",
+   "descripcion": "",
+   "variantes": [
+    [
+     "Tequila · opción A",
+     150
+    ],
+    [
+     "Tequila · opción B",
+     250
+    ],
+    [
+     "Mezcal · opción A",
+     150
+    ],
+    [
+     "Mezcal · opción B",
+     250
+    ]
+   ],
+   "orden": 220
+  },
+  {
+   "id": "coctel-digestivos",
+   "categoria": "bebidas-de-la-barra",
+   "nombre": "Digestivos",
+   "descripcion": "",
+   "opciones": "Baileys / Kahlúa / Frangelico / Licor 43",
+   "precio": 160,
+   "orden": 230
+  },
+  {
+   "id": "vino-corona-tinto-casa",
+   "categoria": "vinos",
+   "subcategoria": "Tinto",
+   "nombre": "De la casa",
+   "detalle": "Corona del Valle",
+   "descripcion": "40% Cabernet S. · 40% Merlot · 20% Tempranillo",
+   "variantes": [
+    [
+     "Botella",
+     600
+    ],
+    [
+     "Copa",
+     160
+    ]
+   ],
+   "orden": 10
+  },
+  {
+   "id": "vino-flor-de-laurel",
+   "categoria": "vinos",
+   "subcategoria": "Tinto",
+   "nombre": "“Flor de Laurel”",
+   "detalle": "Cava Laurel",
+   "descripcion": "Merlot",
+   "variantes": [
+    [
+     "Botella",
+     900
+    ],
+    [
+     "Copa",
+     225
+    ]
+   ],
+   "orden": 20
+  },
+  {
+   "id": "vino-ariana",
+   "categoria": "vinos",
+   "subcategoria": "Tinto",
+   "nombre": "“Ariana”",
+   "detalle": "Vinícola Cien Piedras",
+   "descripcion": "Tempranillo",
+   "variantes": [
+    [
+     "Botella",
+     800
+    ],
+    [
+     "Copa",
+     200
+    ]
+   ],
+   "orden": 30
+  },
+  {
+   "id": "vino-magoni",
+   "categoria": "vinos",
+   "subcategoria": "Tinto",
+   "nombre": "“Magoni”",
+   "detalle": "Casa Magoni",
+   "descripcion": "Sangiovese / Cabernet",
+   "variantes": [
+    [
+     "Botella",
+     550
+    ],
+    [
+     "Copa",
+     150
+    ]
+   ],
+   "orden": 40
+  },
+  {
+   "id": "vino-kumeey",
+   "categoria": "vinos",
+   "subcategoria": "Tinto",
+   "nombre": "“Kumeey”",
+   "detalle": "Xecue",
+   "descripcion": "50% Cabernet S. · 25% Merlot · 25% Cabernet F.",
+   "variantes": [
+    [
+     "Botella",
+     600
+    ],
+    [
+     "Copa",
+     160
+    ]
+   ],
+   "orden": 50
+  },
+  {
+   "id": "vino-don-luis-terra",
+   "categoria": "vinos",
+   "subcategoria": "Tinto",
+   "nombre": "“Don Luis Terra”",
+   "detalle": "L.A. Cetto",
+   "descripcion": "Cabernet / Merlot / Petite Verdot / Malbec",
+   "variantes": [
+    [
+     "Botella",
+     800
+    ],
+    [
+     "Copa",
+     200
+    ]
+   ],
+   "orden": 60
+  },
+  {
+   "id": "vino-pinkey",
+   "categoria": "vinos",
+   "subcategoria": "Claret",
+   "nombre": "“Pinkey”",
+   "detalle": "Cava Laurel",
+   "descripcion": "Grenache",
+   "variantes": [
+    [
+     "Botella",
+     750
+    ],
+    [
+     "Copa",
+     185
+    ]
+   ],
+   "orden": 70
+  },
+  {
+   "id": "vino-corona-blanco-sauvignon",
+   "categoria": "vinos",
+   "subcategoria": "Blanco",
+   "nombre": "De la casa",
+   "detalle": "Corona del Valle",
+   "descripcion": "Sauvignon Blanc",
+   "variantes": [
+    [
+     "Botella",
+     700
+    ],
+    [
+     "Copa",
+     175
+    ]
+   ],
+   "orden": 80
+  },
+  {
+   "id": "vino-ventana-al-alma",
+   "categoria": "vinos",
+   "subcategoria": "Blanco",
+   "nombre": "“Ventana al alma”",
+   "detalle": "Vinos Pavia",
+   "descripcion": "Chardonnay",
+   "variantes": [
+    [
+     "Botella",
+     700
+    ],
+    [
+     "Copa",
+     175
+    ]
+   ],
+   "orden": 90
+  },
+  {
+   "id": "vino-corona-blanco-chardonnay",
+   "categoria": "vinos",
+   "subcategoria": "Blanco",
+   "nombre": "De la casa",
+   "detalle": "Corona del Valle",
+   "descripcion": "Chardonnay",
+   "variantes": [
+    [
+     "Botella",
+     800
+    ],
+    [
+     "Copa",
+     200
+    ]
+   ],
+   "orden": 100
+  },
+  {
+   "id": "vino-kotip",
+   "categoria": "vinos",
+   "subcategoria": "Blanco",
+   "nombre": "“Kotip”",
+   "detalle": "Xecue",
+   "descripcion": "Chenin Blanc / Chardonnay",
+   "variantes": [
+    [
+     "Botella",
+     525
+    ],
+    [
+     "Copa",
+     140
+    ]
+   ],
+   "orden": 110
+  },
+  {
+   "id": "vino-corona-rosado-casa",
+   "categoria": "vinos",
+   "subcategoria": "Rosado",
+   "nombre": "De la casa",
+   "detalle": "Corona del Valle",
+   "descripcion": "Rosado",
+   "variantes": [
+    [
+     "Botella",
+     750
+    ],
+    [
+     "Copa",
+     185
+    ]
+   ],
+   "orden": 120
+  },
+  {
+   "id": "vino-corona-grenache",
+   "categoria": "vinos",
+   "subcategoria": "Rosado",
+   "nombre": "“Grenache”",
+   "detalle": "Corona del Valle",
+   "descripcion": "Grenache",
+   "variantes": [
+    [
+     "Botella",
+     750
+    ],
+    [
+     "Copa",
+     185
+    ]
+   ],
+   "orden": 130
+  },
+  {
+   "id": "vino-konnay",
+   "categoria": "vinos",
+   "subcategoria": "Rosado",
+   "nombre": "“Konnay”",
+   "detalle": "Xecue",
+   "descripcion": "Chenin Blanc / Moscatel",
+   "variantes": [
+    [
+     "Botella",
+     525
+    ],
+    [
+     "Copa",
+     140
+    ]
+   ],
+   "orden": 140
+  },
+  {
+   "id": "bebida-agua-fresca",
+   "categoria": "bebidas",
+   "nombre": "Agua fresca",
+   "descripcion": "¡Pregunta por los diferentes sabores de aguas frescas disponibles del día!",
+   "variantes": [
+    [
+     "Jarra",
+     250
+    ],
+    [
+     "Individual",
+     65
+    ]
+   ],
+   "orden": 10
+  },
+  {
+   "id": "bebida-pecosita",
+   "categoria": "bebidas",
+   "nombre": "Pecosita",
+   "descripcion": "Limonada mineral ó natural preparada con trocitos de fresa.",
+   "variantes": [
+    [
+     "Individual",
+     105
+    ],
+    [
+     "Jarra",
+     400
+    ]
+   ],
+   "orden": 20
+  },
+  {
+   "id": "bebida-soda-italiana",
+   "categoria": "bebidas",
+   "nombre": "Soda italiana cremosa",
+   "descripcion": "Agua mineral, syrup de sabor, leche cremosa y crema batida, coronada con cereza.",
+   "opciones": "Fresa / Mango / Kiwi / Fruta de la pasión / Vainilla / Durazno",
+   "precio": 150,
+   "orden": 30
+  },
+  {
+   "id": "bebida-marea-baja",
+   "categoria": "bebidas",
+   "nombre": "Marea baja",
+   "descripcion": "Preparada con cerveza de raíz (root beer), helado de vainilla y crema batida adornada con cereza.",
+   "precio": 150,
+   "orden": 40
+  },
+  {
+   "id": "bebida-euodia-kombucha",
+   "categoria": "bebidas",
+   "nombre": "‘Euodia’ (kombucha)",
+   "descripcion": "",
+   "opciones": "Limonada con menta / Albahaca y piña / Frambuesa con jengibre y limón",
+   "precio": 80,
+   "orden": 50
+  },
+  {
+   "id": "bebida-milkshake",
+   "categoria": "bebidas",
+   "nombre": "Milkshake",
+   "descripcion": "Batido de nieve de vainilla, adornado con crema batida, grajeas de colores y cereza.",
+   "opciones": "Vainilla / Fresa / Chocolate / Mazapán / Oreo / Brownie-cherry",
+   "precio": 170,
+   "orden": 60
+  },
+  {
+   "id": "bebida-refrescos",
+   "categoria": "bebidas",
+   "nombre": "Refrescos",
+   "descripcion": "Coca-Cola, Sprite, Fanta, Mundet y Fresca.",
+   "precio": 50,
+   "orden": 70
+  },
+  {
+   "id": "bebida-agua-mineral",
+   "categoria": "bebidas",
+   "nombre": "Agua mineral",
+   "descripcion": "",
+   "variantes": [
+    [
+     "De la casa",
+     30
+    ],
+    [
+     "Topo Chico",
+     50
+    ]
+   ],
+   "orden": 80
+  },
+  {
+   "id": "bebida-cafe-te",
+   "categoria": "bebidas",
+   "nombre": "Café regular // Té caliente",
+   "descripcion": "¡Pregunta por los sabores de té disponibles!",
+   "precio": 55,
+   "orden": 90
+  }
+ ]
+}

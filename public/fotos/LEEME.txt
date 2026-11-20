@@ -1,0 +1,4 @@
+Suba aquí las fotos de los platillos (JPG, PNG o WebP).
+Escriba el nombre exacto del archivo en la columna «foto» del menu.xlsx.
+Ejemplo: pizza-hawaiana.webp
+En /admin/ › Fotografías puede preparar cada foto con el nombre correcto.

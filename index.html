@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      /* Aplica el tema elegido antes de pintar, para que no parpadee */
+      (function () {
+        try {
+          var t = localStorage.getItem('ochentos-tema');
+          if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {}
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Menú · Ochentos Pizza</title>
+    <meta name="description" content="Menú digital de Ochentos Pizza, pizzería rústica en San Antonio de las Minas: pizzas, pastas, entradas, cerveza artesanal El Chivo Gruñón, vinos del valle y postres." />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ochentos Pizza" />
+    <meta property="og:title" content="Menú · Ochentos Pizza" />
+    <meta property="og:description" content="Pizzas, pastas, cerveza artesanal y vinos del valle. ¡Del campo sólo lo mejor!" />
+    <meta property="og:locale" content="es_MX" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Active JavaScript para ver el menú, o consulte el PDF en ochentos.com.</noscript>
+    <script type="module" src="/src/public/main.tsx"></script>
+  </body>
+</html>
